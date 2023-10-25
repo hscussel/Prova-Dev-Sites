@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(173, 218, 221);
+}
+header{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+}
+p{
+    text-align: center;
+    display: block;
+}
+p1{
+    display: block;
+    text-align: center;
+}
+label{
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    display:block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+p2{
+    margin-top: 20px;
+    display: block;
+    margin-left: 50px;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: 580px;
+}
+nav{
+    margin-top: 10px;
+    display: block;
+    margin-left: 50px;
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    
+}
+article{
+    background-color: rgb(205, 231, 233);
+    border-radius: 20px;
+    text-align: center;
+
+}
+h2{
+    text-align:center;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+p3{
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#formulario{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+input{
+    margin-left: 10px;
+}
+textarea{
+    margin-left: 10px;
+}
+#display{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#display-1{
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+#display-2{
+    margin-right: 10px;
+}
+#display-3{
+    margin-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        font-size: 30px;
+    }
+    label {
+        margin-left: 10px;
+    }
+    img {
+        max-width: 100%; 
+    }
+}
